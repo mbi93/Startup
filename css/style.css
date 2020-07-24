@@ -266,3 +266,127 @@ body{
 }
 
 
+.works__container{
+    padding: 100px 0 70px;
+ 
+}
+
+.nav-link{
+    padding: 0 12px;
+    border: none !important;
+    border-radius: 0 !important;
+    font-family: "roboto slab";
+    font-weight: 400;
+    font-size: 16px;
+    color: #555;
+}
+
+.nav-link:hover{
+    color: #555;
+}
+
+.nav-link.active{
+    border: none;
+    color: #c0301c !important;
+}
+
+
+.nav-tabs{
+    border: none;
+    justify-content: center;
+    margin-bottom: 74px;
+    
+}
+
+.works .col-xl-4{
+    margin-bottom: 30px;
+   
+}
+
+.works-tab__item{
+    position: relative;
+}
+
+.view{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(192, 48, 28, 0.7);
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.view__title{
+    font-size: 18px;
+    color: #fff !important;
+    margin-bottom: 17px;
+}
+
+.view__subtitle{
+    font-family: "roboto slab";
+    font-weight: 400;
+    font-size: 12px;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.view__btn{
+    font-family: "roboto slab";
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 14px;   
+    color: #c0301c;
+    padding: 15px 20px;
+    background: #fff;
+}
+
+.view__btn:hover{
+    color: #c0301c;
+}
+
+.works .col-xl-4:hover .view{
+    display: flex;
+}
+
+.talk{
+    background: url(../images/call_bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+}
+
+.talk__text{
+    color: #fff;
+    line-height: 44px;
+    font-weight: 400;
+    font-family: "roboto slab";
+    font-size: 30px;
+}
+
+.talk__container{
+    padding: 100px 0;
+}
+
+.talk__btn{
+    display: inline-block;
+    margin-top: 50px;
+    font-family: "roboto slab";
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    padding: 16px 25px;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    
+}
+
+.talk__btn:hover{
+    color: #fff;
+}
